@@ -1,3 +1,26 @@
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+.active{
+    color: #0cd977;
+    text-decoration: underline;
+}
+
+.next_course{
+    background-color: #0cd977;
+}
+
+.next_course span{
+    color: #fff;
+}
+
 .nav{
     height: 100px;
 }
@@ -10,7 +33,47 @@
     width: 100%;
 }
 
+.btn-outline-success {
+    color: #0cd977;
+    border: 2px solid #0cd977;
+}
+
+.jumbo_left ul{
+    margin: 30px 0;
+}
+
+.jumbo_left ul img{
+    margin: 0 5px;
+}
+
+.jumbo_right{
+    padding: 30px;
+}
+
+.title{
+    color: #0cd977;
+}
+
+h3{
+    margin-top:50px;
+}
+
 footer{
-    background-color:rgb(134, 120, 120);
+    background-color:rgb(0, 22, 50);
     color: #fff;
+}
+
+.top_footer{
+    height: 100px;
+}
+
+.rule{
+    background-color: #fff;
+    height: 5px;
+    width: 70%;
+}
+
+.social i{
+    font-size: 2rem;
+    margin: 0 7px;
 }
