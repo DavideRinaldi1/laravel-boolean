@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'HomeController@index');
 Route::get('/ilCorso', 'CorsoController@index');
+Route::get('/dopoCorso', 'DopoController@index');
+Route::get('/camp', 'CampController@index');

@@ -11,12 +11,7 @@
                 </address>
             </div>
             <div class="col-6 d-flex align-items-end">
-                <ul class="list-unstyled">
-                    <li> <a href="/">Home</a> </li>
-                    <li> <a href="/ilCorso">Il Corso</a> </li>
-                    <li> <a href="/dopoCorso">Dopo il corso</a> </li>
-                    <li> <a href="/camp">Camp Gratuito</a> </li>
-                    <li> <a href="/iscriviti"><button type="button" class="btn btn-outline-success">Cadidati ora</button></a> </li>
+                <button type="button" class="btn btn-outline-success">Cadidati ora</button>
             </div>
         </div>
     </div>
