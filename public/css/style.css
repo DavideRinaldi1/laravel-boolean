@@ -1,0 +1,16 @@
+.nav{
+    height: 100px;
+}
+.nav img, .foot_logo{
+    height: 50px;
+    margin: 10px 0;
+}
+
+.nav .row{
+    width: 100%;
+}
+
+footer{
+    background-color:rgb(134, 120, 120);
+    color: #fff;
+}
