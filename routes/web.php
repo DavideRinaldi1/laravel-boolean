@@ -18,3 +18,4 @@ Route::get('/', 'HomeController@index');
 Route::get('/ilCorso', 'CorsoController@index');
 Route::get('/dopoCorso', 'DopoController@index');
 Route::get('/camp', 'CampController@index');
+Route::get('/db', 'DatabaseController@index');
