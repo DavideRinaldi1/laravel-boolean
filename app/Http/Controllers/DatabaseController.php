@@ -13,5 +13,10 @@ class DatabaseController extends Controller
 
         return view('database', compact('users'));
     }
+    public function show($id){
+        $singleUser = UserModel::find($id);
+
+        return view('user', compact('singleUser'));
+    }
 }
 

@@ -14,8 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', 'HomeController@index');
-Route::get('/ilCorso', 'CorsoController@index');
-Route::get('/dopoCorso', 'DopoController@index');
-Route::get('/camp', 'CampController@index');
-Route::get('/db', 'DatabaseController@index');
+Route::get('/', 'HomeController@index')->name('home');
+Route::get('/ilCorso', 'CorsoController@index')->name('corso');
+Route::get('/dopoCorso', 'DopoController@index')->name('dopo');
+Route::get('/camp', 'CampController@index')->name('camp');
+Route::get('/db', 'DatabaseController@index')->name('user');
+Route::get('/db/{id}', 'DatabaseController@show')->name('user.show');

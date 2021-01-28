@@ -10,6 +10,7 @@
                 <h4>{{$user->first_name}} {{$user->last_name}}</h4>
                 <p>Email: {{$user->email}}</p>
                 <p>Gender: {{$user->gender}}</p>
+                <a href="/db/{{$user->id}}">Vedi dettagli utente</a>
             </div>    
             @endforeach
         </div>

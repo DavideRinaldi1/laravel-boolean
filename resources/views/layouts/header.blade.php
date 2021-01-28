@@ -10,7 +10,7 @@
     <div class="container nav">
         <div class="row">
             <div class="col-4 d-flex align-items-center">
-                <img src="img/logo.png" alt="">
+                <img src="{{asset('img/logo.png')}}" alt="">
             </div>
             <div class="col-8 d-flex align-items-center justify-content-end">
                 <ul class="list-inline list-unstyled">
